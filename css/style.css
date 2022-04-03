@@ -1,0 +1,559 @@
+/* basci styling start */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #3d2514;
+}
+
+/* basic styling end  */
+
+/* header start  */
+
+header{
+  padding: 40px 0;
+  background-color: #ffc045;
+  /* border: 1px solid salmon; */
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto; 
+  overflow: hidden;
+  /* border: 1px solid; */
+}
+
+.logo {
+  width: 15%;
+  float: left;
+  cursor: pointer;
+  /* border: 1px solid salmon; */
+}
+
+.logo img{
+  width: 100%;
+}
+
+.menu {
+  width: 63%;
+  float: right;
+  /* border: 1px solid salmon; */
+}
+
+.menu ul {
+  padding-top: 28px;
+  float: right;
+}
+
+
+.contact p{
+  display: inline-block;
+}
+
+.menu ul li{
+  list-style: none;
+  float: left;
+
+}
+
+.menu ul li:last-child a{
+  margin-right: 0;
+}
+
+.menu ul li a{
+  margin: 0 60px;
+  display: inline-block;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  font-weight: 700;
+  color: #3d2514;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+
+.menu ul li a:hover{
+  border-bottom: 1px solid #3d2514;
+}
+
+/* header end  */
+/* banner start */
+
+.banner{
+
+  padding-bottom: 95px;
+  height: 100vh;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+
+}
+.container{
+
+
+}
+.b-content{
+
+  margin-top: 10%;
+}
+.text{
+
+  padding: 10px 0;
+  width: 33%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  text-align: center;
+  border: 1px dashed #3d2514;
+}
+.b-title{
+
+  padding-top: 10px;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 95px;
+  font-weight: 400;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  text-shadow: 5px 3px 11px cornsilk;
+  display: block;
+
+}
+
+.b-subtitle{
+
+margin-bottom: 40px;
+font-size: 65px;
+padding: 0;
+}
+.btn button{
+
+  padding: 20px 40px;
+  background-color: #df1c1c;
+  border: 1px solid #df1c1c;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.btn button:hover{
+
+  border: 1px solid #df1c1c;
+  color: #df1c1c;
+  background-color: transparent;
+}
+.price-tag{
+
+ margin-left: 44%;
+
+ position: absolute;
+}
+/* banner end */
+
+/* popular section start */
+
+.popular{
+
+  padding: 70px 0;
+  color: white;
+
+}
+.wrapper{
+
+  width: 80%;
+  margin: 0 auto;
+  /* border: 1px solid; */
+  overflow: hidden;
+  
+
+
+}
+.left{
+  
+  float: left;
+  width: 48%;
+  /* border: 1px solid red; */
+  background-image: url(../img/item-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 350px;
+  border-radius: 10px;
+
+}
+.p-text{
+  margin: 0;
+	padding: 20px 0 0 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 1.5px;
+  
+
+}
+.p-title{
+  margin: 0;
+	padding: 0 0 0 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 2px;
+
+}
+.right{
+
+  float: right;
+  width: 48%;
+  
+  /* border: 1px solid green; */
+
+}
+.right-top{
+  border:1px solid blue;
+  margin-bottom: 29px;
+  background-image: url(../img/item-2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 160px;
+  border-radius: 10px;
+
+}
+.right-bottom{
+
+  border: 1px solid blueviolet;
+  background-image: url(../img/item-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 160px;
+  border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+/* popular section end */
+
+/* Enjoy section start */
+
+.enjoy{
+
+
+}
+.e-container{
+  width: 90%;
+  margin: 0 auto;
+}
+.e-content{
+
+  text-align: center;
+}
+.e-text{
+
+  width: 25%;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0 auto;
+  font-family: 'Bebas Neue', cursive;
+  background-color: #ffc34c;
+  letter-spacing: 2px;
+}
+.e-title{
+
+  margin: 22px 0 12px;
+  font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	text-transform: uppercase;
+  letter-spacing: 3px;
+
+
+}
+.e-text-2{
+
+  margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+
+}
+.burger-container{
+
+}
+.single-burger{
+
+  padding: 40px 0;
+  float: left;
+  width: 33%;
+  text-align: center;
+  /* border: 1px solid; */
+
+}
+
+.s-img{
+   
+  margin: 0 auto;
+}
+.s-img img{
+  width: 100%;
+}
+.s-title{
+
+   padding-top: 25px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  color: #3d2514;
+  font-size: 32px;
+
+}
+
+.s-text{
+
+  padding: 10px 0;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+
+/* Enjoy section end */
+
+
+/* upcoming event start */
+
+/*upcoming start*/
+
+.upcoming {
+	margin-bottom: 50px;
+}
+
+.u-content {
+}
+
+.w-s{
+	box-shadow: ;
+}
+
+.u-left {
+	width: 42%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+
+.disco{
+	margin: 0;
+    margin-top: 45px;
+    font-size: 29px;
+    color: #3A3A3A;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.u-left h2{
+	margin: 0;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+.ul-text{
+	margin: 0;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #3A3A3A;
+    line-height: 30px;
+}
+
+.u-right {
+	width: 55%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+
+.ur-img {
+	margin: 20px;
+}
+
+.ur-img img{
+	width: 100%;
+}
+
+/*upcoming end*/
+
+/* reservation start  */
+
+.reservation{
+  padding-top: 80px;
+  padding-bottom: 0;
+  height: 100vh;
+  background-image: url(../img/form-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.reservation-content{
+  text-align: center;
+}
+.title{
+
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+.form-container input {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding: 25px 0 25px 25px;
+  width: 380px;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  display: inline-block;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+}
+
+.form-container input:focus{
+  outline: none;
+}
+
+.form-container input:last-child{
+  width: 409px;
+  padding: 0;
+  padding: 25px 0 25px 25px;
+  font-family: 'Alfa Slab One', cursive;
+  color: white;
+  background-color: #df1c1c;
+  transition: 0.3s;
+}
+.form-container input:last-child:hover{
+  color: #df1c1c;
+  background-color: transparent;
+}
+
+/* reservation end  */
+/* footer start  */
+
+footer{
+  margin-bottom: 80px;
+}
+
+.footer-bg{
+  padding: 80px 40px;
+  background-image: url(../img/footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  position: relative;
+}
+
+.about {
+  width: 40%;
+  float: left;
+}
+
+
+.about-us{
+  padding: 40px 0 160px;
+  color: #fff;
+  line-height: 30px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 5%;
+  left: 2%;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+  color: #c4c4c4;
+  font-weight: 400;
+  text-transform: uppercase;
+  /* letter-spacing: 1px; */
+}
+
+.contact {
+  padding-top: 10%;
+  width: 30%;
+  float: right;
+}
+
+.contact address{
+  position: relative;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.contact address p{
+  padding-left: 10px;
+  position: absolute;
+  top: 15%;
+}
+
+.email {
+  margin-top: 20px;
+  position: relative;
+  color: white;
+}
+
+.email p {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-left: 10px;
+  position: absolute;
+  top: 5%;
+}
+
+.social-medias {
+  position: absolute;
+  bottom: 5%;
+  right: 2%;
+}
+
+.social-medias ul li{
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.social-medias ul li:last-child{
+  padding-right: 0;
+}
+
+.social-medias ul li:hover{
+  cursor: pointer;
+}
+
+
+/* footer end  */
+
+
+/* upcoming event end */
